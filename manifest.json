@@ -5,8 +5,7 @@
   "description": "Automatically redirects HTTP sites to HTTPS.",
   "permissions": ["webRequest", "webRequestBlocking", "http://*/*", "tabs", "webNavigation"],
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "page": "background.html"
   },
   "content_scripts": [{
     "matches": ["<all_urls>"],
