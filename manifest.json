@@ -3,7 +3,7 @@
   "name": "Cryptify",
   "version": "1.0",
   "description": "Automatically redirects HTTP sites to HTTPS.",
-  "permissions": ["webRequest", "webRequestBlocking", "http://*/*", "tabs", "webNavigation"],
+  "permissions": ["webRequest", "webRequestBlocking", "http://*/*", "tabs", "webNavigation", "storage"],
   "background": {
     "page": "background.html"
   },
